@@ -39,16 +39,16 @@
     </link>
     <link name="fl_caster">
       <pose relative_to="chassis">0.3037 0.203 0.1565 0 0 0</pose>
-      <inertial>
-        <inertia>
-          <ixx>0.2</ixx>
-          <ixy>0.0</ixy>
-          <ixz>0.0</ixz>
-          <iyy>0.2</iyy>
-          <iyz>0.0</iyz>
-          <izz>0.2</izz>
-        </inertia>
-      </inertial>
+      <!-- <inertial> -->
+      <!--   <inertia> -->
+      <!--     <ixx>0.2</ixx> -->
+      <!--     <ixy>0.0</ixy> -->
+      <!--     <ixz>0.0</ixz> -->
+      <!--     <iyy>0.2</iyy> -->
+      <!--     <iyz>0.0</iyz> -->
+      <!--     <izz>0.2</izz> -->
+      <!--   </inertia> -->
+      <!-- </inertial> -->
       <visual name="fl_caster_visual">
         <geometry>
           <mesh>
@@ -56,6 +56,11 @@
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5</ambient>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>1.0 1.0 1.0</specular>
+        </material>
       </visual>
       <!-- <collision name="fl_caster_collision"> -->
       <!--   <geometry> -->
@@ -68,16 +73,16 @@
     </link>
     <link name="fr_caster">
       <pose relative_to="chassis">0.3037 -0.203 0.1565 0 0 0</pose>
-      <inertial>
-        <inertia>
-          <ixx>0.2</ixx>
-          <ixy>0.0</ixy>
-          <ixz>0.0</ixz>
-          <iyy>0.2</iyy>
-          <iyz>0.0</iyz>
-          <izz>0.2</izz>
-        </inertia>
-      </inertial>
+      <!-- <inertial> -->
+      <!--   <inertia> -->
+      <!--     <ixx>0.2</ixx> -->
+      <!--     <ixy>0.0</ixy> -->
+      <!--     <ixz>0.0</ixz> -->
+      <!--     <iyy>0.2</iyy> -->
+      <!--     <iyz>0.0</iyz> -->
+      <!--     <izz>0.2</izz> -->
+      <!--   </inertia> -->
+      <!-- </inertial> -->
       <visual name="fr_caster_visual">
         <geometry>
           <mesh>
@@ -85,6 +90,11 @@
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5</ambient>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>1.0 1.0 1.0</specular>
+        </material>
       </visual>
       <!-- <collision name="fr_caster_collision"> -->
       <!--   <geometry> -->
@@ -97,17 +107,17 @@
     </link>
     <link name="bl_caster">
       <pose relative_to="chassis">-0.3037 0.203 0.1565 0 0 0</pose>
-      <inertial>
-        <mass>5</mass>
-        <inertia>
-          <ixx>0.2</ixx>
-          <ixy>0.0</ixy>
-          <ixz>0.0</ixz>
-          <iyy>0.2</iyy>
-          <iyz>0.0</iyz>
-          <izz>0.2</izz>
-        </inertia>
-      </inertial>
+      <!-- <inertial> -->
+      <!--   <mass>5</mass> -->
+      <!--   <inertia> -->
+      <!--     <ixx>0.2</ixx> -->
+      <!--     <ixy>0.0</ixy> -->
+      <!--     <ixz>0.0</ixz> -->
+      <!--     <iyy>0.2</iyy> -->
+      <!--     <iyz>0.0</iyz> -->
+      <!--     <izz>0.2</izz> -->
+      <!--   </inertia> -->
+      <!-- </inertial> -->
       <visual name="bl_caster_visual">
         <geometry>
           <mesh>
@@ -115,6 +125,11 @@
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5</ambient>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>1.0 1.0 1.0</specular>
+        </material>
       </visual>
       <!-- <collision name="bl_caster_collision"> -->
       <!--   <geometry> -->
@@ -127,16 +142,16 @@
     </link>
     <link name="br_caster">
       <pose relative_to="chassis">-0.3037 -0.203 0.1565 0 0 0</pose>
-      <inertial>
-        <inertia>
-          <ixx>0.2</ixx>
-          <ixy>0.0</ixy>
-          <ixz>0.0</ixz>
-          <iyy>0.2</iyy>
-          <iyz>0.0</iyz>
-          <izz>0.2</izz>
-        </inertia>
-      </inertial>
+      <!-- <inertial> -->
+      <!--   <inertia> -->
+      <!--     <ixx>0.2</ixx> -->
+      <!--     <ixy>0.0</ixy> -->
+      <!--     <ixz>0.0</ixz> -->
+      <!--     <iyy>0.2</iyy> -->
+      <!--     <iyz>0.0</iyz> -->
+      <!--     <izz>0.2</izz> -->
+      <!--   </inertia> -->
+      <!-- </inertial> -->
       <visual name="br_caster_visual">
         <geometry>
           <mesh>
@@ -144,6 +159,11 @@
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5</ambient>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>1.0 1.0 1.0</specular>
+        </material>
       </visual>
       <!-- <collision name="br_caster_collision"> -->
       <!--   <geometry> -->
@@ -156,16 +176,16 @@
     </link>
     <link name="fl_wheel">
       <pose relative_to="fl_caster">-0.0382 0 -0.094 0 0 0</pose>
-      <inertial>
-        <inertia>
-          <ixx>0.2</ixx>
-          <ixy>0.0</ixy>
-          <ixz>0.0</ixz>
-          <iyy>0.2</iyy>
-          <iyz>0.0</iyz>
-          <izz>0.2</izz>
-        </inertia>
-        </inertial>
+      <!-- <inertial> -->
+      <!--   <inertia> -->
+      <!--     <ixx>0.2</ixx> -->
+      <!--     <ixy>0.0</ixy> -->
+      <!--     <ixz>0.0</ixz> -->
+      <!--     <iyy>0.2</iyy> -->
+      <!--     <iyz>0.0</iyz> -->
+      <!--     <izz>0.2</izz> -->
+      <!--   </inertia> -->
+      <!--   </inertial> -->
       <visual name="fl_wheel_visual">
         <geometry>
           <mesh>
@@ -175,31 +195,39 @@
         </geometry>
         <material>
           <ambient>0.5 0.5 0.5</ambient>
-          <diffuse>1.0 0.0 0.0</diffuse>
-          <specular>1.0 0.0 0.0</specular>
+          <diffuse>0.5 0.5 0.5</diffuse>
+          <specular>0.5 0.5 0.5</specular>
         </material>
       </visual>
       <collision name="fl_wheel_collision">
         <geometry>
           <mesh>
             <uri>model://meshes/visual/wheel.stl</uri>
-            <scale>1 1 1</scale>
+            <scale>0.999 0.999 0.999</scale>
           </mesh>
         </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.01</mu>
+              <mu2>0.01</mu2>
+            </ode>
+          </friction>
+        </surface>
       </collision>
     </link>
     <link name="fr_wheel">
       <pose relative_to="fr_caster">-0.0382 0 -0.094 0 0 0</pose>
-      <inertial>
-        <inertia>
-          <ixx>0.2</ixx>
-          <ixy>0.0</ixy>
-          <ixz>0.0</ixz>
-          <iyy>0.2</iyy>
-          <iyz>0.0</iyz>
-          <izz>0.2</izz>
-        </inertia>
-        </inertial>
+      <!-- <inertial> -->
+      <!--   <inertia> -->
+      <!--     <ixx>0.2</ixx> -->
+      <!--     <ixy>0.0</ixy> -->
+      <!--     <ixz>0.0</ixz> -->
+      <!--     <iyy>0.2</iyy> -->
+      <!--     <iyz>0.0</iyz> -->
+      <!--     <izz>0.2</izz> -->
+      <!--   </inertia> -->
+      <!--   </inertial> -->
       <visual name="fr_wheel_visual">
         <geometry>
           <mesh>
@@ -209,31 +237,39 @@
         </geometry>
         <material>
           <ambient>0.5 0.5 0.5</ambient>
-          <diffuse>1.0 0.0 0.0</diffuse>
-          <specular>1.0 0.0 0.0</specular>
+          <diffuse>0.5 0.5 0.5</diffuse>
+          <specular>0.5 0.5 0.5</specular>
         </material>
       </visual>
       <collision name="fr_wheel_collision">
         <geometry>
           <mesh>
             <uri>model://meshes/visual/wheel.stl</uri>
-            <scale>1 1 1</scale>
+            <scale>0.999 0.999 0.999</scale>
           </mesh>
         </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.01</mu>
+              <mu2>0.01</mu2>
+            </ode>
+          </friction>
+        </surface>
       </collision>
     </link>
     <link name="bl_wheel">
       <pose relative_to="bl_caster">-0.0382 0 -0.094 0 0 0</pose>
-      <inertial>
-        <inertia>
-          <ixx>0.2</ixx>
-          <ixy>0.0</ixy>
-          <ixz>0.0</ixz>
-          <iyy>0.2</iyy>
-          <iyz>0.0</iyz>
-          <izz>0.2</izz>
-        </inertia>
-        </inertial>
+      <!-- <inertial> -->
+      <!--   <inertia> -->
+      <!--     <ixx>0.2</ixx> -->
+      <!--     <ixy>0.0</ixy> -->
+      <!--     <ixz>0.0</ixz> -->
+      <!--     <iyy>0.2</iyy> -->
+      <!--     <iyz>0.0</iyz> -->
+      <!--     <izz>0.2</izz> -->
+      <!--   </inertia> -->
+      <!--   </inertial> -->
       <visual name="bl_wheel_visual">
         <geometry>
           <mesh>
@@ -243,31 +279,40 @@
         </geometry>
         <material>
           <ambient>0.5 0.5 0.5</ambient>
-          <diffuse>1.0 0.0 0.0</diffuse>
-          <specular>1.0 0.0 0.0</specular>
+          <diffuse>0.5 0.5 0.5</diffuse>
+          <specular>0.5 0.5 0.5</specular>
         </material>
       </visual>
       <collision name="bl_wheel_collision">
         <geometry>
           <mesh>
             <uri>model://meshes/visual/wheel.stl</uri>
-            <scale>1 1 1</scale>
+            <scale>0.999 0.999 0.999</scale>
           </mesh>
         </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.01</mu>
+              <mu2>0.01</mu2>
+            </ode>
+          </friction>
+        </surface>
+
       </collision>
     </link>
     <link name="br_wheel">
       <pose relative_to="br_caster">-0.0382 0 -0.094 0 0 0</pose>
-      <inertial>
-        <inertia>
-          <ixx>0.2</ixx>
-          <ixy>0.0</ixy>
-          <ixz>0.0</ixz>
-          <iyy>0.2</iyy>
-          <iyz>0.0</iyz>
-          <izz>0.2</izz>
-        </inertia>
-      </inertial>
+      <!-- <inertial> -->
+      <!--   <inertia> -->
+      <!--     <ixx>0.2</ixx> -->
+      <!--     <ixy>0.0</ixy> -->
+      <!--     <ixz>0.0</ixz> -->
+      <!--     <iyy>0.2</iyy> -->
+      <!--     <iyz>0.0</iyz> -->
+      <!--     <izz>0.2</izz> -->
+      <!--   </inertia> -->
+      <!-- </inertial> -->
       <visual name="br_wheel_visual">
         <geometry>
           <mesh>
@@ -277,31 +322,40 @@
         </geometry>
         <material>
           <ambient>0.5 0.5 0.5</ambient>
-          <diffuse>1.0 0.0 0.0</diffuse>
-          <specular>1.0 0.0 0.0</specular>
+          <diffuse>0.5 0.5 0.5</diffuse>
+          <specular>0.5 0.5 0.5</specular>
         </material>
       </visual>
       <collision name="br_wheel_collision">
         <geometry>
           <mesh>
             <uri>model://meshes/visual/wheel.stl</uri>
-            <scale>1 1 1</scale>
+            <scale>0.999 0.999 0.999 </scale>
           </mesh>
         </geometry>
+
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.01</mu>
+              <mu2>0.01</mu2>
+            </ode>
+          </friction>
+        </surface>
       </collision>
     </link>
     <link name="l_act_wheel">
       <pose relative_to="chassis">-0.03 0.2226 0.0625 0 0 0</pose>
-      <inertial>
-        <inertia>
-          <ixx>0.2</ixx>
-          <ixy>0.0</ixy>
-          <ixz>0.0</ixz>
-          <iyy>0.2</iyy>
-          <iyz>0.0</iyz>
-          <izz>0.2</izz>
-        </inertia>
-      </inertial>
+      <!-- <inertial> -->
+      <!--   <inertia> -->
+      <!--     <ixx>0.2</ixx> -->
+      <!--     <ixy>0.0</ixy> -->
+      <!--     <ixz>0.0</ixz> -->
+      <!--     <iyy>0.2</iyy> -->
+      <!--     <iyz>0.0</iyz> -->
+      <!--     <izz>0.2</izz> -->
+      <!--   </inertia> -->
+      <!-- </inertial> -->
       <visual name="l_act_wheel_visual">
         <geometry>
           <mesh>
@@ -311,8 +365,8 @@
         </geometry>
         <material>
           <ambient>0.5 0.5 0.5</ambient>
-          <diffuse>1.0 0.0 0.0</diffuse>
-          <specular>1.0 0.0 0.0</specular>
+          <diffuse>0.5 0.5 0.5</diffuse>
+          <specular>0.5 0.5 0.5</specular>
         </material>
       </visual>
       <collision name="l_act_wheel_collision">
@@ -322,20 +376,28 @@
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
+        <!-- <surface> -->
+        <!--   <friction> -->
+        <!--     <ode> -->
+        <!--       <mu>1.01</mu> -->
+        <!--       <mu2>1.01</mu2> -->
+        <!--     </ode> -->
+        <!--   </friction> -->
+        <!-- </surface> -->
       </collision>
     </link> 
     <link name="r_act_wheel">
       <pose relative_to="chassis">-0.03 -0.2226 0.0625 0 0 0</pose>
-      <inertial>
-        <inertia>
-          <ixx>0.2</ixx>
-          <ixy>0.0</ixy>
-          <ixz>0.0</ixz>
-          <iyy>0.2</iyy>
-          <iyz>0.0</iyz>
-          <izz>0.2</izz>
-        </inertia>
-      </inertial>
+      <!-- <inertial> -->
+      <!--   <inertia> -->
+      <!--     <ixx>0.2</ixx> -->
+      <!--     <ixy>0.0</ixy> -->
+      <!--     <ixz>0.0</ixz> -->
+      <!--     <iyy>0.2</iyy> -->
+      <!--     <iyz>0.0</iyz> -->
+      <!--     <izz>0.2</izz> -->
+      <!--   </inertia> -->
+      <!-- </inertial> -->
       <visual name="r_act_wheel_visual">
         <geometry>
           <mesh>
@@ -345,8 +407,8 @@
         </geometry>
         <material>
           <ambient>0.5 0.5 0.5</ambient>
-          <diffuse>1.0 0.0 0.0</diffuse>
-          <specular>1.0 0.0 0.0</specular>
+          <diffuse>0.5 0.5 0.5</diffuse>
+          <specular>0.5 0.5 0.5</specular>
         </material>
       </visual>
       <collision name="r_act_wheel_collision">
@@ -356,9 +418,20 @@
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
+        <!-- <surface> -->
+        <!--   <friction> -->
+        <!--     <ode> -->
+        <!--       <mu>1.01</mu> -->
+        <!--       <mu2>1.01</mu2> -->
+        <!--     </ode> -->
+        <!--   </friction> -->
+        <!-- </surface> -->
+
       </collision>
     </link> 
-  
+
+
+
     <link name="closset">
       <pose relative_to="chassis">0.0 -0.02 0.3 3.1415 0 0</pose>
       <inertial>
@@ -381,8 +454,8 @@
         </geometry>
         <material>
           <ambient>0.5 0.5 0.5</ambient>
-          <diffuse>1.0 0.0 0.0</diffuse>
-          <specular>1.0 0.0 0.0</specular>
+          <diffuse>0.1 0.1 0.9</diffuse>
+          <specular>0.5 0.5 0.5</specular>
         </material>
       </visual>
       <collision name="closset_collision">
@@ -394,7 +467,24 @@
         </geometry>
       </collision>
     </link> 
-    
+     
+
+
+    <link name="imu_link">
+      <pose relative_to="chassis"> 0 0 0 0 0 0 </pose>
+      <sensor name="imu_sensor" type="imu">
+        <always_on>1</always_on>
+        <update_rate>50</update_rate>
+        <visualize>true</visualize>
+        <topic>imu</topic>
+      </sensor>
+    </link>
+    <joint name="imu_joint" type="fixed">
+      <pose relative_to="imu_link"/>
+      <parent>chassis</parent>
+      <child>imu_link</child> 
+    </joint>
+   
     <link name="f_laser_link">
       <pose relative_to="chassis">0.392 0.2358 0.1914 3.1415 0 0.79</pose>
       <visual name="laser_link_visual">
@@ -421,7 +511,7 @@
       <sensor name='gpu_lidar' type='gpu_lidar'>
         <pose relative_to='f_lidar_frame'>0 0 0 0 0 0</pose>
         <topic>f_scan</topic>
-        <update_rate>12.5</update_rate>
+        <update_rate>100</update_rate>
         <ray>
           <scan>
             <horizontal>
@@ -475,7 +565,7 @@
       <sensor name='gpu_lidar' type='gpu_lidar'>
         <pose relative_to='b_lidar_frame'>0 0 0 0 0 0</pose>
         <topic>b_scan</topic>
-        <update_rate>12.5</update_rate>
+        <update_rate>100</update_rate>
         <ray>
           <scan>
             <horizontal>
@@ -513,7 +603,7 @@
 
 <!-- ur robot  -->
     <link name="base_link">
-      <pose relative_to="chassis">0.25 0.11 0.98 0 0 0</pose> -->
+      <pose relative_to="closset">-0.23 -0.1 -0.683 -3.1415 0 -0.785398</pose> -->
       <inertial>
         <mass>4</mass>
         <inertia>
