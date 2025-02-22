@@ -602,7 +602,7 @@
 
 
 <!-- ur robot  -->
-    <link name="base_link">
+    <link name="ur5_base_link">
       <pose relative_to="closset">-0.23 0.1 -0.683 -3.1415 0 0.785398</pose> -->
       <inertial>
         <mass>4</mass>
@@ -631,8 +631,8 @@
       </visual>
     </link>
     <joint name="shoulder_pan_joint" type="revolute">
-      <pose relative_to="base_link">0 0 0.089159 0 -0 0</pose>
-      <parent>base_link</parent>
+      <pose relative_to="ur5_base_link">0 0 0.089159 0 -0 0</pose>
+      <parent>ur5_base_link</parent>
       <child>shoulder_link</child>
       <axis>
         <xyz>0 0 1</xyz>
@@ -1080,9 +1080,9 @@
 
 
     <joint name="ur_base_joint" type="fixed">
-      <pose relative_to="base_link"/>
+      <pose relative_to="ur5_base_link"/>
       <parent>closset</parent>
-      <child>base_link</child>
+      <child>ur5_base_link</child>
     </joint>
 
     <plugin
